@@ -156,6 +156,8 @@ import re
 import os
 from urlparse import urlparse
 
+DEFAULT_DOCKER_API_VERSION = None
+
 try:
     import json
 except ImportError:
